@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">Admin</string>
+    <string name="app_name">AdminApplication</string>
+    <string name="select_categ">Select Product Category</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="phone_no">Phone No</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="conf_password">Confirm Password</string>
+    <string name="address">Shop Address</string>
+    <string name="email">Email</string>
+    <string name="no_internet_connection_found">No Internet Connection found</string>
+    <string name="generic_error">Generic error</string>
+    <string name="server_down">Server Down</string>
+    <string name="messages">Message</string>
+    <string name="logout">LOGOUT</string>
+    <string name="reset_password_instruction">We just need your registered Email id to sent your password reset instruction</string>
+    <string name="enter_one_time_code">Enter one time Code sent to your registered Email</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="verify_code">V E R I F Y   C O D E</string>
+    <string name="next">N E X T</string>
+    <string name="update">U P D A T E</string>
+    <string name="forget_password">FORGET PASSWORD</string>
+    <string name="code_verification">CODE VERIFICATION</string>
+    <string name="new_credentials">NEW CREDENTIALS</string>
+    <string name="identity_verified">Your identity has been verified! \n Set your new password </string>
+    <string name="new_password">New Password</string>
+    <string name="back"><![CDATA[<- Back]]></string>
+    <array name="menu_options">
+        <item>Dashboard</item>
+        <item>Orders</item>
+        <item>Profile</item>
+
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
