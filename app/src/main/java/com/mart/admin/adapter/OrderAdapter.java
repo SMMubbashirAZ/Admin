@@ -109,7 +109,7 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
             e.printStackTrace();
         }
         holder.date.setText(formattedDate);
-        holder.status.setText("Status : "+orderModel.getStatusName());
+        holder.status.setText(orderModel.getStatusName());
         holder.totalPrice.setText(MessageFormat.format("Rs.{0}",orderModel.getTotalPrice()));
         holder.riderName.setText(orderModel.getShopName());
         holder.orders.setText(orderModel.getProductDetails());

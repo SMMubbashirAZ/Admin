@@ -35,7 +35,7 @@ public class DashboardActivity extends BaseCompatActivity {
         ButterKnife.bind(this);
         BindID();
 
-        tv_title.setText("PRODUCTS");
+        tv_title.setText("ADMIN");
         shop_btn.setOnClickListener(view -> startActivity(new Intent(this,ShopActivity.class)));
         rider_btn.setOnClickListener(view -> startActivity(new Intent(this,RiderActivity.class)));
         product_btn.setOnClickListener(view -> startActivity(new Intent(this,ShopActivity.class)));
@@ -47,6 +47,5 @@ public class DashboardActivity extends BaseCompatActivity {
         include_layout = findViewById(R.id.include_home);
         iv_back = include_layout.findViewById(R.id.iv_appbar_back_icon);
         tv_title = include_layout.findViewById(R.id.tv_appbar_title);
-        iv_back.setVisibility(View.VISIBLE);
     }
 }
