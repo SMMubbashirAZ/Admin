@@ -38,7 +38,7 @@ public class DashboardActivity extends BaseCompatActivity {
         tv_title.setText("ADMIN");
         shop_btn.setOnClickListener(view -> startActivity(new Intent(this,ShopActivity.class)));
         rider_btn.setOnClickListener(view -> startActivity(new Intent(this,RiderActivity.class)));
-        product_btn.setOnClickListener(view -> startActivity(new Intent(this,ShopActivity.class)));
+        product_btn.setOnClickListener(view -> startActivity(new Intent(this,ProductActivity.class)));
         order_btn.setOnClickListener(view -> startActivity(new Intent(this,OrderActivity.class)));
         logout_btn.setOnClickListener(view ->  showDialogue(R.layout.dialogue_logout_layout,"You will be logged out of the application. \\nDo You wish to continue","logout",null));
     }
