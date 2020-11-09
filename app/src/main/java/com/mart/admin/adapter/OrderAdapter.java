@@ -85,10 +85,10 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, final int position) {
         OrderModel orderModel =orderModelList.get(position);
-        if (orderModel.getStatusName().equals(AppConstants.APPROVED_BY_RIDER)){
-            holder.acceptOrder.setVisibility(View.GONE);
-        }else{
+        if (orderModel.getStatusName().equals(AppConstants.APPROVED_BY_SHOP)){
             holder.acceptOrder.setVisibility(View.VISIBLE);
+        }else{
+            holder.acceptOrder.setVisibility(View.GONE);
         }
         holder.deliveredTo.setText(MessageFormat.format("Order from {0}",orderModel.getUserName()));
         RequestOptions options = new RequestOptions()

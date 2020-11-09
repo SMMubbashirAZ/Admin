@@ -35,6 +35,8 @@
                 android:id="@+id/custom_dialog_msg"
                 style="@style/MyDownloadDialogTextAppearance"
                 android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_marginEnd="@dimen/_7sdp"
                 android:layout_height="wrap_content"
                 android:text="Do you want to download Data?"
                 android:textAlignment="center" />

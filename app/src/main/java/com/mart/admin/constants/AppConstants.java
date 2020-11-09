@@ -13,6 +13,7 @@ public class AppConstants {
     public static String MESSAGE = "message";
     public static String RESPONSE = "reponse";
     public static String APPROVED_BY_RIDER = "Approved By Rider";
+    public static String APPROVED_BY_SHOP = "Approved By Shop";
     public static String NEW_ORDER = "New Order";
     public static String PAST_ORDER = "Past Order";
     public static String ORDER_SEND_TO_SHOP = "Order Sent To The Shop";
